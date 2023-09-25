@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>503</width>
+    <height>688</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>-20</x>
+      <y>-10</y>
+      <width>521</width>
+      <height>651</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../../../Videos/87.jpg</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="AddpushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>140</y>
+      <width>91</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: #BEBCA2;
+    color: #3498db; /* Text color */
+    border: 2px solid #3498db;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+}
+
+QPushButton:hover {
+    background-color: #8B4E28; /* Background color on hover */
+    color: white; /* Text color on hover */
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Add</string>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="MylistWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>220</y>
+      <width>461</width>
+      <height>371</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgba(0, 0, 0, 100);
+border-radius:15px;
+Color :rgb(249, 240, 107)</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ClearpushButton_4">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>140</y>
+      <width>101</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: #BEBCA2;
+    color: #3498db; /* Text color */
+    border: 2px solid #3498db;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+}
+
+QPushButton:hover {
+    background-color: #8B4E28; /* Background color on hover */
+    color: white; /* Text color on hover */
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Clear</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="MylineEdit_2">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>50</y>
+      <width>431</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgba(0, 0, 0, 100);
+border-radius:15px;
+Color : #592920;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="DeletepushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>140</y>
+      <width>101</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: #BEBCA2;
+    color: #3498db; /* Text color */
+    border: 2px solid #3498db;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+}
+
+QPushButton:hover {
+    background-color: #8B4E28; /* Background color on hover */
+    color: white; /* Text color on hover */
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Delete</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="SavepushButton_5">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>140</y>
+      <width>101</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: #BEBCA2;
+    color: #3498db; /* Text color */
+    border: 2px solid #3498db;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+}
+
+QPushButton:hover {
+    background-color: #8B4E28; /* Background color on hover */
+    color: white; /* Text color on hover */
+}
+</string>
+    </property>
+    <property name="text">
+     <string>save</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>503</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
